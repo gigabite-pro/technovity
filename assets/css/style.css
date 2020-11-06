@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter.woff2') format('woff2'),
+}
+
+body {
+    background-color: #121212;
+    color: #f5f5f7;
+    font-family: 'Inter';
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#link {
+    color: grey;
+    margin-right: 20px;
+}
+
+#link-active {
+    color: #f5f5f7;
+    margin-right: 20px;
+}
+
+#link:hover {
+    color: #f5f5f7;
+}
+
+#navbarNav {
+    margin-left: 55%;
+    margin-top: 1%;
+}
+
+.main-body .container {
+    color: white;
+    margin: auto;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.main-body .container h1{
+    font-weight: 800;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.main-body .container h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    text-align: center;
+    color: grey;
+}
+
+.main-body .container button{
+    width: 80px;
+    height: 35px;
+    background-color:white;
+    color: #121212;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+#register-button {
+    background-color: #121212;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+#register-button:hover {
+    background-color: white;
+    color: #121212;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.inline-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: left;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.about-body .container {
+    color: white;
+    margin-top: 10%;
+    margin-left: -0%;
+    width: 60%;
+}
+
+.about-body .container h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.about-body .container h2{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 2%;
+    text-align: left;
+    color: grey;
+}
+
+.inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: left;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 7%;
+}
+
+.about-body .schedule-container {
+    color: white;
+    margin-top: 10%;
+    margin-left: -0%;
+    width: 100%;
+    text-align: center;
+}
+
+.about-body .schedule-container h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.schedule-container img {
+    height: 400px;
+    width: 90%;
+    margin-bottom: 5rem;
+}
+
+.about-body .team-container {
+    color: white;
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.about-body .team-container h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.team-grid {
+    width: 110%;
+    padding-left: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: left;
+}
+
+.member-card {
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.member-card img {
+    width: 250px;
+    height: 240px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.member-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Inter';
+}
+
+.member-card h3 {
+    padding-left: 15px;
+    text-align: left;
+    font-size: 1rem;
+    color: grey;
+}
