@@ -6,7 +6,7 @@
 body {
     background-color: #121212;
     color: #f5f5f7;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Lexend Deca';
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -89,7 +89,7 @@ button:hover {
 
 .about-body .container {
     color: white;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: -0%;
     width: 60%;
 }
@@ -183,7 +183,7 @@ button:hover {
     padding-top: 10px;
     text-align: left;
     padding-left: 15px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Lexend Deca';
 }
 
 .member-card h3 {
@@ -210,8 +210,8 @@ button:focus {
 }
 
 .event-card {
-    width: 420px;
-    height: 280px;
+    width: 400px;
+    height: 290px;
     border-style: solid;
     border-color: grey;
     border-width: 1.5px;
@@ -219,6 +219,7 @@ button:focus {
     margin-bottom: 30px;
     padding-left: 30px;
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 30px;
 }
 
@@ -226,7 +227,7 @@ button:focus {
     font-size: 1.7rem;
     font-weight: 600;
     text-align: left;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Lexend Deca';
 }
 
 .event-card h3 {
