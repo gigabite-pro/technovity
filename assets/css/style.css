@@ -60,6 +60,7 @@ body {
     border: none;
     border-radius: 5px;
     margin-right: 25px;
+    border-width: 1px;
 }
 
 #register-button {
@@ -115,7 +116,7 @@ button:hover {
 
 .logo {
     margin: auto;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .about-body .schedule-container {
@@ -154,7 +155,6 @@ button:hover {
 
 .team-grid {
     width: 110%;
-    padding-left: 5%;
     display: flex;
     flex-flow: row wrap;
     align-items: left;
@@ -191,4 +191,91 @@ button:hover {
     text-align: left;
     font-size: 1rem;
     color: grey;
+}
+
+.container button{
+    width: 80px;
+    height: 35px;
+    background-color:white;
+    color: #121212;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    border-width: 1px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.event-card {
+    width: 420px;
+    height: 280px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1.5px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.event-card h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Inter';
+}
+
+.event-card h3 {
+    text-align: left;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 20px;
+}
+
+.event-card button{
+    width: 90px;
+    height: 35px;
+    background-color:white;
+    color: #121212;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    border-width: 1px;
+}
+
+form input {
+    height: 50px;
+    width: 300px;
+    background-color: #252729;
+    color: #fefefe;
+    font-size: 1rem;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+    width: 300px;
+    background-color: #252729;
+    color: #fefefe;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea:focus {
+    outline: none;
+}
+
+form input:focus {
+    outline: none;
 }
