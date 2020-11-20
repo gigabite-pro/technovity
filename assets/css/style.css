@@ -113,6 +113,24 @@ button:hover {
     color: grey;
 }
 
+.cp-head {
+    margin-top: 3.5rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.cp-para {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 2%;
+    color: grey;
+}
+
+.cp-image-box{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .inline {
     display: flex;
     flex-flow: row wrap;
