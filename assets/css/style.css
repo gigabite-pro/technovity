@@ -303,3 +303,12 @@ form textarea:focus {
 form input:focus {
     outline: none;
 }
+
+#contact-cont{
+    margin-top: 6rem;
+}
+
+#contact-head{
+    font-family: 'Inter', 'Lexend Deca';
+    font-weight: 700;
+}
