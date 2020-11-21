@@ -10,20 +10,23 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-black" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
             <a class="navbar-brand" href="/">
-                <img src="/assets/images/icon.png" width="50" height="50" style="margin-top: 10px" class="d-inline-block align-top" alt="">
+              <img src="/assets/images/icon.png" width="50" height="50" style="margin-top: 10px" class="d-inline-block nav-logo" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav nav-align">
                 <li class="nav-item active">
                   <a class="nav-link" href="/about" id="link">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/events" id="link-active">Events</a>
+                  <a class="nav-link" href="/events" id="link">Events</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/team" id="link">Team</a>
@@ -34,13 +37,17 @@
               </ul>
             </div>
           </nav>
-    </header>
-    <div class="about-body">    
-        <div class="team-container">
-            <h1>Events</h1>
-            <br><br>
-            <div class="team-grid">
-                <div class="event-card">
+    </header>  
+            
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Events</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-12 mt-3">
+                <div class="event-card left-cards">
                     <h2>Innovision</h2>
                     <h3>Participants have to design an innovative Arduino based project on the provided theme/ prompt using only a limited number of total unique components.</h3>
                     <div class="inline-buttons" style="margin-left: 0%;margin-top: 70px">
@@ -48,6 +55,8 @@
                         <a href="https://docs.google.com/document/d/12SldQ5bBHhpHNGpBO42VZ9eUNhQYiXfY-uJICyjQVqI/edit?usp=sharing" target="_blank"><button id="register-button">Resources</button></a>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3">
                 <div class="event-card">
                     <h2>Hackathon</h2>
                     <h3>In a 4 day timeframe, participants will have to develop a product based on the given prompt and the qualified teams would then have to pitch/ present their product in the finals. </h3>
@@ -57,7 +66,9 @@
                     </div>
                     <br>
                 </div>
-                <div class="event-card">
+            </div>
+            <div class="col-md-6 col-12 mt-3">
+                <div class="event-card left-cards">
                     <h2>Dimensions</h2>
                     <h3>The event will proceed through 2 rounds(preliminary and finals), participants would be asked to 3D design on the basis of the given prompt.</h3>
                     <div class="inline-buttons" style="margin-left: 0%;margin-top: 70px">
@@ -65,6 +76,8 @@
                         <a href="https://docs.google.com/document/d/15uuKErZYPJ8gWDUH9wbmaM--X9Q_V4IJryVu-aqlkyc/edit?usp=sharing" target="_blank"><button id="register-button">Resources</button></a>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3">
                 <div class="event-card">
                     <h2>SuperNova</h2>
                     <h3>Teams would be asked to research, innovate and prepare a 15-slide presentation and a video. Five qualifying teams will get to present it live for the finals in front of a panel of judges.</h3>
@@ -73,7 +86,9 @@
                         <a href="https://docs.google.com/document/d/1TvFkiBXmSt0SN3SH1UwcIHpTui84GNBBpaSDJAFQHVs/edit?usp=sharing" target="_blank"><button id="register-button">Resources</button></a>
                     </div>
                 </div>
-                <div class="event-card">
+            </div>
+            <div class="col-md-6 col-12 mt-3">
+                <div class="event-card left-cards">
                     <h2>Xhibition</h2>
                     <h3>Students would present an innovative solution/ alternative to the problem provided.</h3>
                     <div class="inline-buttons" style="margin-left: 0%;margin-top: 90px;">
@@ -81,6 +96,8 @@
                         <a href="https://docs.google.com/document/d/1M1E0IqpJ2FMLa2SresuLs_wPjobJVvGott_KQlN5Hbo/edit?usp=sharing" target="_blank"><button id="register-button">Resources</button></a>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3">
                 <div class="event-card">
                     <h2>TechCraft</h2>
                     <h3>Innovation+Minecraft. This two round event would ask the participants to use their minecraft skills to build, animate and present their project as a response to the prompt provided.</h3>
@@ -89,6 +106,15 @@
                         <a href="https://docs.google.com/document/d/1MQ1Id3P0Wi2STGElfHFM1Dtlxl6YhLIStijHMDb0VGE/edit" target="_blank"><button id="register-button">Resources</button></a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>  
