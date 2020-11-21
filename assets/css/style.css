@@ -356,4 +356,8 @@ form input:focus {
     .event-card{
         margin-left: 0rem;
     }
+
+    .nav-logo{
+        margin-left: 0%;
+    }
 }
