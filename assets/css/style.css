@@ -341,4 +341,8 @@ form input:focus {
     .event-head{
         margin-left: 0%;
     }
+
+    #contact-cont{
+        margin-top: 2rem;
+    }
 }
