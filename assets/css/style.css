@@ -215,14 +215,11 @@ footer a:hover{
 }
 
 .container button{
-    width: 86px;
-    height: 35px;
     background-color:white;
     color: #121212;
     font-size: 0.9rem;
     border: none;
     border-radius: 5px;
-    margin-right: 25px;
     border-width: 1px;
 }
 
@@ -230,21 +227,10 @@ button:focus {
     outline: none;
 }
 
-
-
 .event-card {
-    height: 18rem;
     border-style: solid;
     border-color: grey;
     border-width: 1.5px;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-}
-
-.left-cards{
-    margin-left: 3.5rem;
 }
 
 .card-head h2{
@@ -343,5 +329,17 @@ form input:focus {
 
     .nav-logo{
         margin-left: 0%;
+    }
+
+    .card-head h2{
+        font-size: 0.5rem;
+    }
+
+    .card-content h3{
+        font-size: 0.1rem;
+    }
+
+    .event-card{
+        height: 50rem;
     }
 }
