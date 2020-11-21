@@ -113,7 +113,8 @@ footer a:hover{
 .cp-head {
     margin-top: 3.5rem;
     font-weight: 700;
-    font-size: 2.75em;
+    font-size: 3em;
+    margin-right: 5.5rem;
 }
 
 .cp-para {
@@ -214,7 +215,7 @@ footer a:hover{
 }
 
 .container button{
-    width: 80px;
+    width: 86px;
     height: 35px;
     background-color:white;
     color: #121212;
@@ -232,12 +233,10 @@ button:focus {
 
 
 .event-card {
-    width: 400px;
-    height: 290px;
+    height: 18rem;
     border-style: solid;
     border-color: grey;
     border-width: 1.5px;
-    margin-left: -2rem;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -248,30 +247,15 @@ button:focus {
     margin-left: 3.5rem;
 }
 
-.event-card h2 {
+.card-head h2{
     font-size: 1.7rem;
     font-weight: 600;
-    text-align: left;
     font-family: 'Inter', 'Lexend Deca';
 }
 
-.event-card h3 {
-    text-align: left;
+.card-content h3{
     font-size: 1rem;
     color: grey;
-    margin-top: 20px;
-}
-
-.event-card button{
-    width: 90px;
-    height: 35px;
-    background-color:white;
-    color: #121212;
-    font-size: 0.9rem;
-    border: none;
-    border-radius: 5px;
-    margin-right: 25px;
-    border-width: 1px;
 }
 
 form input {
@@ -349,11 +333,11 @@ form input:focus {
         margin-top: 1%;
     }
 
-    .left-cards{
+    .event-card{
         margin-left: 0rem;
     }
 
-    .event-card{
+    .left-cards{
         margin-left: 0rem;
     }
 
