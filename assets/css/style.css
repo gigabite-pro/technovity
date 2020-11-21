@@ -176,6 +176,10 @@ button:focus {
     padding-left: 8rem;
 }
 
+.event-head{
+    margin-left: 8.5rem;
+}
+
 #new-event-card{
     height: 18rem;
 }
@@ -332,5 +336,9 @@ form input:focus {
 
     .card-footer{
         margin-left: 0rem;
+    }
+
+    .event-head{
+        margin-left: 0%;
     }
 }
