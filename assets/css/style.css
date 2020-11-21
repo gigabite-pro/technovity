@@ -51,6 +51,7 @@ body {
 #register-button {
     background-color: #121212;
     border-style: solid;
+    border-width: 1.5px;
     border-color: white;
     color: white;
     padding: 5px;
