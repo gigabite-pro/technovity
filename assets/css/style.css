@@ -228,6 +228,7 @@ button:focus {
 }
 
 .event-card {
+    padding: 1.3rem;
     border-style: solid;
     border-color: grey;
     border-width: 1.5px;
