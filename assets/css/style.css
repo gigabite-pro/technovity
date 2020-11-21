@@ -89,25 +89,10 @@ footer a:hover{
     margin-left: -1rem;
 }
 
-.about-body .container {
-    color: white;
-    margin-top: 7%;
-    margin-left: -0%;
-    width: 60%;
-}
 
-.about-body .container h1{
+.about-head{
     font-weight: 700;
-    font-size: 3rem;
-    text-align: left;
-}
-
-.about-body .container h2{
-    font-weight: 400;
-    font-size: 1.1rem;
-    margin-top: 2%;
-    text-align: left;
-    color: grey;
+    font-size: 3em;
 }
 
 .cp-head {
@@ -125,8 +110,11 @@ footer a:hover{
 }
 
 .cp-image-box{
-    padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.cp-image-box img{
+    height: 25rem;
 }
 
 .inline {
@@ -160,58 +148,43 @@ footer a:hover{
     margin-bottom: 5rem;
 }
 
-.about-body .team-container {
-    color: white;
-    margin-top: 10%;
-    margin-left: 1%;
-    width: 100%;
-    text-align: center;
+.center{
+    margin-left: -4rem;
+    margin-right: -4rem;
 }
 
-.container .team-container h1{
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: left;
-}
-
-.team-grid {
-    width: 110%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-}
-
-.member-card {
-    width: 250px;
-    height: 320px;
-    border-radius: 10px;
-    background-color: black;
-    margin-right: 40px;
-    margin-bottom: 30px;
-}
-
-.member-card img {
-    width: 250px;
-    height: 240px;
-    border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.member-card h2 {
+.card-head{
     font-size: 1.5rem;
     font-weight: 600;
-    padding-top: 10px;
-    text-align: left;
-    padding-left: 15px;
-    font-family: 'Inter', 'Lexend Deca';
 }
 
-.member-card h3 {
-    padding-left: 15px;
-    text-align: left;
+.card-desig{
     font-size: 1rem;
     color: grey;
+}
+
+.card-body{
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-subtitle{
+    margin-bottom: -0.4rem;
+}
+
+.card-title{
+    margin-top: -0.4rem;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card{
+    background-color: black;
+    border-radius: 10px;
 }
 
 .container button{
@@ -277,6 +250,11 @@ form input:focus {
     outline: none;
 }
 
+.send:hover{
+    background-color: grey;
+    color: white;
+}
+
 #contact-cont{
     margin-top: 6rem;
 }
@@ -284,6 +262,10 @@ form input:focus {
 #contact-head{
     font-family: 'Inter', 'Lexend Deca';
     font-weight: 700;
+}
+
+#contact-svg img{
+    height: 20rem;
 }
 
 @media(max-width: 576px){
@@ -340,7 +322,25 @@ form input:focus {
         font-size: 0.1rem;
     }
 
-    .event-card{
-        height: 50rem;
+    .center{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .card{
+        margin: auto;
+    }
+
+    .cp-image-box img{
+        height: 23rem;
+    }
+
+    .cp-image-box{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+    }
+
+    #contact-svg img{
+        height: 12rem;
     }
 }
