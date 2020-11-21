@@ -122,11 +122,6 @@ footer a:hover{
     height: 25rem;
 }
 
-.inline {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-}
 
 .logo {
     margin: auto;
@@ -173,36 +168,40 @@ footer a:hover{
     border-radius: 10px;
 }
 
-.container button{
-    background-color:white;
-    color: #121212;
-    font-size: 0.9rem;
-    border: none;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
 button:focus {
     outline: none;
 }
 
-.event-card {
-    padding: 1.2rem;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1.5px;
+.event-row{
+    padding-left: 8rem;
 }
 
-.card-head h2{
+#new-event-card{
+    height: 18rem;
+}
+
+#new-event-card .card-body{
+    height: 18rem;
+    border-radius: 10px;
+}
+
+
+#new-event-card .card-title{
     font-size: 1.7rem;
     font-weight: 600;
     font-family: 'Inter', 'Lexend Deca';
 }
 
-.card-content h3{
+#new-event-card .card-text{
     font-size: 1rem;
     color: grey;
 }
+
+
+.card-footer{
+    margin-left: -1.1rem;
+}
+
 
 form input {
     height: 50px;
@@ -288,24 +287,9 @@ form input:focus {
         margin-top: 1%;
     }
 
-    .event-card{
-        margin-left: 0rem;
-    }
-
-    .left-cards{
-        margin-left: 0rem;
-    }
 
     .nav-logo{
         margin-left: 0%;
-    }
-
-    .card-head h2{
-        font-size: 0.5rem;
-    }
-
-    .card-content h3{
-        font-size: 0.1rem;
     }
 
     .center{
@@ -336,5 +320,17 @@ form input:focus {
 
     .btns{
         margin-top: 0rem;
+    }
+
+    .event-row{
+        padding-left: 0rem;
+    }
+
+    #new-event-card{
+        height: 21rem;
+    }
+
+    .card-footer{
+        margin-left: 0rem;
     }
 }
