@@ -71,6 +71,7 @@ button:hover {
     cursor: pointer;
 } 
 
+
 .indi-reg{
     margin-left: 0.2rem;
     text-align: right;
@@ -93,6 +94,10 @@ footer a:hover{
 .about-head{
     font-weight: 700;
     font-size: 3em;
+}
+
+.btns{
+    margin-top: -3rem;
 }
 
 .cp-head {
@@ -128,25 +133,6 @@ footer a:hover{
     margin-top: 5%;
 }
 
-.about-body .schedule-container {
-    color: white;
-    margin-top: 10%;
-    margin-left: -0%;
-    width: 100%;
-    text-align: center;
-}
-
-.about-body .schedule-container h1{
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: left;
-}
-
-.schedule-container img {
-    height: 400px;
-    width: 90%;
-    margin-bottom: 5rem;
-}
 
 .center{
     margin-left: -4rem;
@@ -342,5 +328,13 @@ form input:focus {
 
     #contact-svg img{
         height: 12rem;
+    }
+
+    .about-svg{
+        display: none;
+    }
+
+    .btns{
+        margin-top: 0rem;
     }
 }
