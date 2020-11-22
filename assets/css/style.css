@@ -34,6 +34,7 @@ body {
 
 .navbar-toggler{
     color: white;
+    border: none;
 }
 
 .main-body{
@@ -100,6 +101,13 @@ footer a:hover{
 footer{
     position: fixed;
     bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+    left: auto;
     width: 100%;
     text-align: center;
 }
