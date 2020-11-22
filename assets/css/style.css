@@ -219,18 +219,23 @@ button:focus {
     margin-left: 8.5rem;
 }
 
+
 #new-event-card{
     height: 18rem;
+    background-color: rgb(18, 18, 18);
+    border: white solid 2px;
 }
 
 #new-event-card .card-body{
+    padding: 1.1rem;
+    background-color: rgb(18, 18, 18);
     height: 18rem;
     border-radius: 10px;
 }
 
 
 #new-event-card .card-title{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 600;
     font-family: 'Inter', 'Lexend Deca';
 }
@@ -242,7 +247,10 @@ button:focus {
 
 
 .card-footer{
+    position: absolute;
+    bottom: 1rem;
     margin-left: -1.1rem;
+    width: 16rem;
 }
 
 
@@ -371,7 +379,7 @@ form input:focus {
     }
 
     .card-footer{
-        margin-left: 0rem;
+        margin-left: -1.3rem;
     }
 
     .event-head{
