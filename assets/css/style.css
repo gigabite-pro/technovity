@@ -105,9 +105,15 @@ footer{
     text-align: center;
 }
 
+.footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
 .relative{
     position: relative;
-    left: auto;
     width: 100%;
     text-align: center;
 }
@@ -381,5 +387,8 @@ form input:focus {
         font-size: 3em;
         margin-left: 0rem;
         margin-bottom: 2rem;
+    }
+    .footer{
+        position: relative;
     }
 }
