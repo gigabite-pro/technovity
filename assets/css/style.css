@@ -77,13 +77,20 @@ button:hover {
     text-align: right;
 }
 
-footer a{
+.help a{
     color: white;
 }
 
-footer a:hover{
+.help a:hover{
     color: grey;
     text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
 }
 
 .school-reg{
@@ -289,9 +296,6 @@ form input:focus {
         margin-top: 4rem;
     }
     
-    footer{
-        bottom: 5rem;
-    }
 
     #navbarNav {
         margin-left: 0%;
