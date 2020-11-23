@@ -38,7 +38,7 @@ body {
 }
 
 .main-body{
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 
 .main-body h1{
@@ -310,6 +310,11 @@ form input:focus {
 }
 
 @media(max-width: 576px){
+
+    .main-body{
+        margin-top: 10rem;
+    }
+
     .main-body h1{
         font-weight: 800;
         font-size: 3.5rem;
