@@ -143,7 +143,7 @@ footer{
     font-weight: 400;
     font-size: 1.1rem;
     margin-top: 2%;
-    color: grey;
+    color: rgb(182, 180, 180)   ;
 }
 
 .cp-image-box{
@@ -158,6 +158,10 @@ footer{
 .logo {
     margin: auto;
     margin-top: 5%;
+}
+
+.princi-mobile{
+    display: none;
 }
 
 .team-head{
@@ -400,4 +404,29 @@ form input:focus {
     .footer{
         position: relative;
     }
+
+    .princi-laptop{
+        display: none;
+    }
+
+    .princi-mobile{
+        display: inline;
+    }
+
+    .cp-head{
+        text-align: center;
+        margin-top: 0rem;
+        font-weight: 700;
+        font-size: 3em;
+        margin-right: 0rem;
+    }
+
+    .cp-para {
+        font-weight: 400;
+        font-size: 1.1rem;
+        margin-top: 2%;
+        margin-left: 2%;
+        color: rgb(182, 180, 180)   ;
+    }
+
 }
