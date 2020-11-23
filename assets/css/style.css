@@ -414,6 +414,10 @@ form input:focus {
         position: relative;
     }
 
+    #no-mobile-svg{
+        position: fixed;
+    }
+
     .princi-laptop{
         display: none;
     }
