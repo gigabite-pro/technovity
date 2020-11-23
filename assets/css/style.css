@@ -400,6 +400,10 @@ form input:focus {
         margin-top: 2rem;
     }
 
+    #contact-svg{
+        display: none;
+    }
+
     .team-head{
         font-weight: 700;
         font-size: 3em;
