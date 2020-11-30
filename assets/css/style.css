@@ -225,7 +225,7 @@ button:focus {
 
 
 #new-event-card{
-    height: 18rem;
+    height: 20rem;
     background-color: rgb(18, 18, 18);
     border: white solid 1px;
 }
@@ -233,7 +233,7 @@ button:focus {
 #new-event-card .card-body{
     padding: 1.1rem;
     background-color: rgb(18, 18, 18);
-    height: 18rem;
+    height: 20rem;
     border-radius: 10px;
 }
 
@@ -249,13 +249,12 @@ button:focus {
     color: grey;
 }
 
-
 .card-footer{
     position: absolute;
-    bottom: 1rem;
+    bottom: 0.5rem;
     background-color: rgb(18, 18, 18);
     margin-left: -1.1rem;
-    width: 16rem;
+    width: 19rem;
 }
 
 
